@@ -59,7 +59,14 @@ namespace VariousTypes
 
             Console.WriteLine(f);
             Console.WriteLine(db);
-            Console.WriteLine(dc);        
+            Console.WriteLine(dc); 
+
+            //"boolean type variables
+            bool TrueFlag = true;
+            bool FalseFlag = false;
+
+            Console.WriteLine(TrueFlag);
+            Console.WriteLine(FalseFlag);       
 
 
 
