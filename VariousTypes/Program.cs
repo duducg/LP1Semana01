@@ -51,6 +51,19 @@ namespace VariousTypes
             Console.WriteLine(starOfDavidEmoji);
             Console.WriteLine(anchorEmoji);
 
+            //"real" type variables
+
+            float f = 16.4633f;
+            double db = 26.4423;
+            decimal dc = 2.4203m;
+
+            Console.WriteLine(f);
+            Console.WriteLine(db);
+            Console.WriteLine(dc);        
+
+
+
+
 
 
 
