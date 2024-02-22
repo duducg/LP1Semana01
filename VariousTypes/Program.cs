@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+
 
 namespace VariousTypes
 {
@@ -6,6 +8,7 @@ namespace VariousTypes
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             //integer type variables
             int i = -4;
             uint ui = 4U;
@@ -30,6 +33,25 @@ namespace VariousTypes
             Console.WriteLine(bt);
             Console.WriteLine(a);
             Console.WriteLine(a_Unicode);
+
+            //different Unicode values for type char
+            char hammerAndSickle = '\u262D';
+            char skullAndCrossBones = '\u2620';
+            char blackSpaceSuitEmoji = '\u2660';
+            char withoutSnowEmoji = '\u26C4';
+            char starOfDavidEmoji = '\u2721';
+            char anchorEmoji = '\u2693';
+
+
+            //Print Unicode values:
+            Console.WriteLine(hammerAndSickle);
+            Console.WriteLine(skullAndCrossBones);
+            Console.WriteLine(blackSpaceSuitEmoji);
+            Console.WriteLine(withoutSnowEmoji);
+            Console.WriteLine(starOfDavidEmoji);
+            Console.WriteLine(anchorEmoji);
+
+
 
 
         }
