@@ -8,6 +8,7 @@ namespace ManyStrings
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
+            //Exercício 4
 
             //String type variables
             //Also test escape characters:
@@ -26,6 +27,8 @@ namespace ManyStrings
             string anchor = "\u2693";
             string anchorSt = $"This is an anchor : {anchor}";
             
+            Console.WriteLine(); //new line just for readability 
+            
             Console.WriteLine(m1);
             Console.WriteLine(m2);
             Console.WriteLine(m3);
@@ -37,6 +40,29 @@ namespace ManyStrings
             Console.WriteLine(m10);
             Console.WriteLine(comiSlander);
             Console.WriteLine(anchorSt);
+
+            Console.WriteLine();
+
+            //Exercício 5:
+
+            //Concatenation 
+            string a = "Conca";
+            string b = "tenation";
+            string c = a + b;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+
+            Console.WriteLine();
+
+            //Interpolation
+            string name = "Jonhson";
+            string age = "45";
+            string final = $"{name} is {age} years old today!";
+            Console.WriteLine(name);
+            Console.WriteLine(age);
+            Console.WriteLine(final);
+            
 
 
 
