@@ -8,6 +8,10 @@ namespace ManyStrings
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
+            //Added variables
+            double xx = 1.23456;
+            int ii = 19;
+
             //Exercício 4
 
             //String type variables
@@ -26,7 +30,7 @@ namespace ManyStrings
             string comiSlander = uni01 + " \u262D";
             string anchor = "\u2693";
             string anchorSt = $"This is an anchor : {anchor}";
-            
+
             Console.WriteLine(); //new line just for readability 
             
             Console.WriteLine(m1);
@@ -62,6 +66,27 @@ namespace ManyStrings
             Console.WriteLine(name);
             Console.WriteLine(age);
             Console.WriteLine(final);
+
+            //Exercício 6:
+
+            //Format strings:
+            //xx formatting
+            string xx_formated = $"The value of \"xx\" is : {xx:f2}";
+            string xx_percentage = $"The percentage of \"xx\" is : {xx:p1}";
+
+            Console.WriteLine(xx_formated);
+            Console.WriteLine(xx_percentage);
+
+            //xx ii
+            string ii_hex =  $"\"ii\" in hexadecimal is : {ii:x}";
+            string ii_Coin = $"\"ii\" in currency is : {ii:c}";
+
+            Console.WriteLine(ii_hex);
+            Console.WriteLine(ii_Coin);
+            
+
+
+
             
 
 
